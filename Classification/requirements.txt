@@ -1,0 +1,10 @@
+# Dev environment
+pip
+autopep8
+
+# App
+langchain_core
+langchain-google-genai # This package contains the LangChain integrations for the Gemini API.
+Pillow # PIL image-loading library
+flask
+requests # Added for test_counterspeech_classifier.py

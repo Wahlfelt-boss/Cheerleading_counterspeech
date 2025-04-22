@@ -1,0 +1,35 @@
+Classification Analysis Summary===============================--- Analysis for: classification_log_2.5PRO.csv ---Confusion Matrix (Binary 0 vs 1): TN=437, FP=2, FN=14, TP=432F1 Score (Macro Average): 0.6147Classification Report:              precision    recall  f1-score   support
+
+          -1       0.00      0.00      0.00         0
+           0       0.97      0.88      0.92       499
+           1       1.00      0.86      0.92       501
+
+    accuracy                           0.87      1000
+   macro avg       0.65      0.58      0.61      1000
+weighted avg       0.98      0.87      0.92      1000
+----------------------------------------------------- Analysis for: classification_log_flash-1.5.csv ---Confusion Matrix (Binary 0 vs 1): TN=479, FP=1, FN=77, TP=423F1 Score (Macro Average): 0.6076Classification Report:              precision    recall  f1-score   support
+
+          -1       0.00      0.00      0.00         0
+           0       0.86      0.96      0.91       499
+           1       1.00      0.84      0.91       501
+
+    accuracy                           0.90      1000
+   macro avg       0.62      0.60      0.61      1000
+weighted avg       0.93      0.90      0.91      1000
+----------------------------------------------------- Analysis for: classification_log_gemini-2.5-flash-preview-04-17.csv ---Confusion Matrix (Binary 0 vs 1): TN=497, FP=2, FN=32, TP=469F1 Score (Macro Average): 0.9660Classification Report:              precision    recall  f1-score   support
+
+           0       0.94      1.00      0.97       499
+           1       1.00      0.94      0.97       501
+
+    accuracy                           0.97      1000
+   macro avg       0.97      0.97      0.97      1000
+weighted avg       0.97      0.97      0.97      1000
+----------------------------------------------------- Analysis for: classification_log_gemini-2.5-pro-preview-03-25.csv ---Confusion Matrix (Binary 0 vs 1): TN=497, FP=2, FN=17, TP=484F1 Score (Macro Average): 0.9810Classification Report:              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.98       499
+           1       1.00      0.97      0.98       501
+
+    accuracy                           0.98      1000
+   macro avg       0.98      0.98      0.98      1000
+weighted avg       0.98      0.98      0.98      1000
+--------------------------------------------------
